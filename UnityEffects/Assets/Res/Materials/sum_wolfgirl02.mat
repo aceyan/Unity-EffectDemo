@@ -8,7 +8,7 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: sum_wolfgirl02
   m_Shader: {fileID: 4800000, guid: e5cf0520265f5d44a823a1fef3d71246, type: 3}
-  m_ShaderKeywords: _EMISSION _FLOWOVERLAY_ADD _FRESNEL_ON
+  m_ShaderKeywords: _EMISSION _FLOWOVERLAY_ADD _FRESNEL_OFF
   m_LightmapFlags: 1
   m_CustomRenderQueue: 3000
   stringTagMap:
@@ -55,7 +55,7 @@ Material:
     - first:
         name: _FlowTex
       second:
-        m_Texture: {fileID: 2800000, guid: 9361852e14d982d4c8f50aed4b895327, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
@@ -115,7 +115,7 @@ Material:
       second: 0.52
     - first:
         name: _Fresnel
-      second: 1
+      second: 0
     - first:
         name: _GlossMapScale
       second: 1
